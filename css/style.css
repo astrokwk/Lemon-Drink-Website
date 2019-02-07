@@ -14,17 +14,23 @@ nav {
   margin-top: 5px;
   background-color: white;
   padding: 10px 0 20px 0;
+
 }
-nav > div {
+.nav-left, .nav-right, .logo {
   display: flex;
   margin-left: auto;
 }
-.nav-form {
+
+.nav-right {
   margin-right: auto;
 }
 nav > div > a, 
 nav > div > img {
+
   align-self: flex-end;
+}
+.dropdown {
+  display: none;
 }
 nav > div > a {
   text-decoration: none;
@@ -32,3 +38,51 @@ nav > div > a {
   margin: 0 12px 0 12px;
 }
 
+.fa-reorder {
+  font-size: 50px;
+  padding-left: 15%;
+ 
+  display: none;
+  
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+   nav > div > img {
+
+     
+   }
+   .fa-reorder {
+     display: block;
+   }
+   .toggle {
+     align-items: center;
+   }
+   .dropdown {
+     display: flex;
+   }
+   .logo {
+
+     width: 50%;
+     margin-left: 0px;
+   }
+   .logo2 {
+     display: flex;
+   }
+   nav > div {
+     margin: 0;
+    
+   }
+   nav > div > img {
+     margin-left: auto;
+   }
+   .nav-left {
+     display: none;
+   }
+   .nav-right{
+     display: none;
+   }
+ }
