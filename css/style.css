@@ -7,20 +7,17 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #fcec16;
 }
-
 nav {
   display: flex;
   width: 100%;
   margin-top: 5px;
   background-color: white;
   padding: 10px 0 20px 0;
-
 }
 .nav-left, .nav-right, .logo {
   display: flex;
   margin-left: auto;
 }
-
 .nav-right {
   margin-right: auto;
 }
@@ -37,47 +34,30 @@ nav > div > a {
   color: #2b2b2b;
   margin: 0 12px 0 12px;
 }
-
 .fa-reorder {
   font-size: 50px;
   padding-left: 15%;
- 
   display: none;
-  
 }
 
 
-
-
 @media screen and (max-width: 700px) {
-
-   nav > div > img {
-
-     
+   nav {
+    padding-bottom: 10px;
    }
    .fa-reorder {
      display: block;
-   }
-   .toggle {
-     align-items: center;
    }
    .dropdown {
      display: flex;
    }
    .logo {
-
      width: 50%;
      margin-left: 0px;
    }
-   .logo2 {
-     display: flex;
-   }
-   nav > div {
-     margin: 0;
-    
-   }
    nav > div > img {
      margin-left: auto;
+     width: 82px;
    }
    .nav-left {
      display: none;
