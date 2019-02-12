@@ -11,9 +11,10 @@ body {
 header {
   background-image: url(../images/lemonback.jpg);
   background-size: contain;
-  min-height: 90%;
+  min-height: 100%;
   margin: auto;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .intro {
@@ -75,8 +76,15 @@ h1::after {
 .menu-btn:active {
   background-color: #4d9b04;
 }
+/*----------SECTION----------------*/
+section {
+  padding: 20px 40px;
+}
 
 @media screen and (max-width: 700px) {
+  .intro {
+    margin-top: 25%;
+  }
   .col {
     text-align: center;
     float: none;
