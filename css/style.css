@@ -78,10 +78,45 @@ h1::after {
 }
 /*----------SECTION----------------*/
 section {
-  padding: 20px 40px;
+  padding: 60px 100px;
+  background-color: white;
+  text-align: center;
 }
 
+section > .container {
+  /* display: flex; */
+}
+
+section > h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.container > div {
+  padding: 15px;
+  display: inline-block;
+  width: 220px;
+}
+
+.container > div > img {
+  padding: 10px;
+}
+
+.container > div > h4 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.container > div > p {
+  font-size: 14px;
+  color: #595959;
+  line-height: 17px;
+}
+
+
+
 @media screen and (max-width: 700px) {
+  /*header*/
   .intro {
     margin-top: 25%;
   }
@@ -94,4 +129,8 @@ section {
   }
   .col:nth-child(2) { padding-bottom: 40px;}
   .row-1 { padding-top: 0px;}
+  /*section*/
+  section {
+    padding: 60px 20px;
+  }
 }
