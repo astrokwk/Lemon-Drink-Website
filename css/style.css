@@ -112,7 +112,7 @@ section > h2 {
   color: #595959;
   line-height: 17px;
 }
-/*-------------MODEL-----------------*/
+/*------------- BANNER -----------------*/
 .banner {
   /* background-color: #84B8C5;
   height: 420px;
@@ -126,7 +126,11 @@ section > h2 {
   float: right;
 } */
 
-
+@media screen and (min-height: 738px) {
+  header {
+    min-height: 75%;
+  }
+}
 
 @media screen and (max-width: 700px) {
   /*header*/
