@@ -113,14 +113,18 @@ section > h2 {
   line-height: 17px;
 }
 /*-------------MODEL-----------------*/
-.model {
-  background-color: 
+.banner {
+  /* background-color: #84B8C5;
+  height: 420px;
+  background-image: url(../images/girlx.png);
+  background-size: 100% 100%; */
 }
-
+/* 
 .model > img {
   max-width: 100%;
-  height: 420px;
-}
+  height: auto;
+  float: right;
+} */
 
 
 
