@@ -15,15 +15,19 @@ header {
   margin: auto;
   text-align: center;
   padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro {
   background-color: white;
   display: inline-block;
   box-shadow: 0px 0px 0px 20px rgba(153,153,0, .3);
-  margin-top: 10%;
+  /* margin-top: 10%; */
   text-align: left;
   color: #595959;
+  margin: 30px;
 }
 
 .col { float: left;}
@@ -114,10 +118,40 @@ section > h2 {
 }
 /*------------- BANNER -----------------*/
 .banner {
-  /* background-color: #84B8C5;
+  background-color: #84B8C5;
   height: 420px;
   background-image: url(../images/girlx.png);
-  background-size: 100% 100%; */
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: auto; */
+  /* position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.image-banner,
+.word-banner {
+  /* position: absolute; */
+}
+
+.word-banner {
+  /* margin-right: auto; */
+  z-index: 10;
+  width: 33%;
+  margin-right: 20%;
+  /* top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.word-banner > h2,
+.word-banner > p {
+  padding: 10px;
 }
 /* 
 .model > img {
@@ -126,16 +160,22 @@ section > h2 {
   float: right;
 } */
 
+
+
 @media screen and (min-height: 738px) {
   header {
-    min-height: 75%;
+    min-height: 65%;
+    background-size: cover;
   }
 }
 
 @media screen and (max-width: 700px) {
   /*header*/
+  /* header {
+    min-height: 100%;
+  } */
   .intro {
-    margin-top: 25%;
+    /* margin-top: 25%; */
   }
   .col {
     text-align: center;
@@ -149,5 +189,15 @@ section > h2 {
   /*section*/
   section {
     padding: 60px 20px;
+  }
+  /*BANNER*/
+  .banner {
+    height: 220px;
+  }
+  .word-banner {
+    width: auto;
+  }
+  .word-banner > p {
+    font-size: 12px;
   }
 }
