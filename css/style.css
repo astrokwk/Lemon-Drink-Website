@@ -142,7 +142,7 @@ section > h2 {
 .word-banner {
   /* margin-right: auto; */
   z-index: 10;
-  width: 33%;
+  width: 43%;
   margin-right: 20%;
   /* top: -50%;
   left: 50%;
@@ -167,7 +167,7 @@ section > h2 {
 /*2nd SECTION*/
 
 .word22 {
-  width: 40%;
+  width: 43%;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -209,7 +209,7 @@ section > h2 {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   /*header*/
   /* header {
     min-height: 100%;
@@ -244,4 +244,9 @@ section > h2 {
   .word22, .container22 {
     width: auto;
   }
+
+  .container22 > div > p,
+.container22 > div > .ham {
+  padding: 0px;
+}
 }
