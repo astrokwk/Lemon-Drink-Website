@@ -243,6 +243,7 @@ section > h2 {
   /*2nd SECTION*/
   .word22, .container22 {
     width: auto;
+    margin-bottom: 40px;
   }
 
   .container22 > div > p,
