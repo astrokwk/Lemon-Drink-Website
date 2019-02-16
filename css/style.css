@@ -173,6 +173,46 @@ section > h2 {
   font-size: 14px;
   padding: 10px 50px;
 }
+/*-----Section 3-------*/
+.section-3 {
+  background-color: #a1dfea;
+  text-align: center;
+  padding: 60px;
+  position: relative;
+}
+
+.section-3 > img {
+  max-width: 850px;
+  max-height: 380px;
+  width: 100%;
+  height: auto;
+}
+
+.section-3 > .word-box {
+  text-align: left;
+  position: absolute;
+  top: 22%;
+  left: 63%;
+  width: 30%;
+  background-color: white;
+  padding: 30px 30px 20px;
+}
+
+.word-box > h2,
+.word-box > p {
+  padding: 10px;
+}
+
+.word-box > p {
+  font-size: 15px;
+  line-height: 18px;
+  color: #3a3a3a;
+}
+
+/*------Footer--------*/
+footer {
+  background-color: #cdeef7;
+}
 
 @media screen and (min-height: 738px) {
   header {
@@ -213,5 +253,14 @@ section > h2 {
   .container22 > div > p,
   .container22 > div > .ham {
   padding: 0px;
+  }
+  /*SECTION-3*/
+  .section-3 {
+
+  }
+  .section-3 > .word-box {
+    width: auto;
+    position: static;
+    padding: 0px;
   }
 }
