@@ -66,4 +66,12 @@ nav > div:nth-child(3) { order: 2; }
      display: block;
      padding: 20px;
    }
+   .nav-left, .nav-right {
+     display: none;
+   }
+
+   .nav-left.responsive,
+   .nav-right.responsive {
+     display: block;
+   }
  }
