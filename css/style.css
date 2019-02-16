@@ -212,6 +212,42 @@ section > h2 {
 /*------Footer--------*/
 footer {
   background-color: #cdeef7;
+  color: #3a3a3a;
+  padding: 80px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav {
+  display: inline-block;
+}
+
+.footer-nav-container {
+  display: flex;
+  /* float: left; */
+  /* margin-left: auto; */
+  justify-content: space-between;
+}
+
+/* .footer-nav:before,
+.footer-nav:after {
+  content: '';
+  display: table;
+}
+
+.footer-nav:after {
+  clear: both;
+} */
+
+
+.footer-nav-container > div {
+  /* display: inline-block; */
+  font-size: 13px;
+}
+
+.social-link {
+  float: right;
 }
 
 @media screen and (min-height: 738px) {
