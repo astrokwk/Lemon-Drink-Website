@@ -23,7 +23,7 @@ body {
 
 #loading-image {
  position: absolute;
- top: 30%;
+ top: 20%;
  left: 50%;
  transform: translateX(-50%);
  margin: auto 0;
