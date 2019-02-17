@@ -3,7 +3,6 @@ window.onload= function() {
   document.querySelector('body').classList.remove('load');
 }
 
-
 document.getElementById('toggle').addEventListener('click', btn);
 
 function btn() {
