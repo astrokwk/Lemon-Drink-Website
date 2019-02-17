@@ -7,12 +7,11 @@ nav {
   justify-content: space-around;
 }
 
-nav > div {
-  align-self: flex-end;
-}
-.logo {
-  order: 1;
-}
+nav > div { align-self: flex-end;}
+
+.logo { order: 1;}
+
+.nav-left, .nav-right { transition: max-height 1.5s;}
 
 nav > div > a {
   text-decoration: none;
@@ -44,12 +43,10 @@ nav > div:nth-child(3) { order: 2; }
      margin: auto;
      text-align: center;
    }
-   .nav-left {
-     margin-top: 15px;
-   }
-   .toggle {
-     display: block;
-   }
+   .nav-left { margin-top: 15px;
+  }
+   .toggle { display: block;}
+   
    .logo {
      order: 0;
      width: 100%;
@@ -67,11 +64,15 @@ nav > div:nth-child(3) { order: 2; }
      padding: 20px;
    }
    .nav-left, .nav-right {
-     display: none;
+     /* display: none; */
+     max-height: 0;
+     overflow: hidden;
    }
 
    .nav-left.responsive,
    .nav-right.responsive {
      display: block;
+     /*--*/
+     max-height: 15em;
    }
  }
