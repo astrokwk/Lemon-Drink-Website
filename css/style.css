@@ -6,6 +6,12 @@ body {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
   background-color: #FFCF01;
+  /* overflow: hidden; */
+}
+
+.load {
+  overflow: hidden;
+  height: 100vh;
 }
 
 #loading {
@@ -18,7 +24,6 @@ body {
 	background-color: white;
 	z-index: 99;
 	text-align: center;
-  overflow-y: hidden !important;;
 }
 
 #loading-image {
