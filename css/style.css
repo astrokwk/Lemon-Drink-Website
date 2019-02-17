@@ -8,6 +8,28 @@ body {
   background-color: #FFCF01;
 }
 
+#loading {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: block;
+	background-color: white;
+	z-index: 99;
+	text-align: center;
+  overflow-y: hidden !important;;
+}
+
+#loading-image {
+ position: absolute;
+ top: 30%;
+ left: 50%;
+ transform: translateX(-50%);
+ margin: auto 0;
+ z-index: 100;
+}
+
 p { color: #3a3a3a;}
 
 a {
@@ -15,9 +37,7 @@ a {
   color: #3a3a3a;
 }
 
-a:hover {
-  color: #ffb600;
-}
+a:hover { color: #ffb600;}
 
 header {
   background-image: url(../images/lemonback.jpg);

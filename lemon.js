@@ -1,3 +1,9 @@
+window.onload= function() {
+	document.getElementById('loading').style.display = "none";
+	document.getElementById('body').style.overflow = 'auto';
+}
+
+
 document.getElementById('toggle').addEventListener('click', btn);
 
 function btn() {
