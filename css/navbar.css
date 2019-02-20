@@ -43,8 +43,6 @@ nav > div:nth-child(3) { order: 2; }
      margin: auto;
      text-align: center;
    }
-   .nav-left { margin-top: 15px;
-  }
    .toggle { display: block;}
    
    .logo {
